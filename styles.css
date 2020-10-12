@@ -1,5 +1,5 @@
-.body {
-    background-color: silver;
+body {
+    background-color: rgb(191, 219, 236);
 }
 #header {
     color:black;
@@ -20,7 +20,7 @@
     height: 300px;
     object-fit: cover;
     object-position: 0 0;
-    padding: 15px;
+    border: solid 3px black;
 }
 .assignmentdetails{
     margin: auto;
