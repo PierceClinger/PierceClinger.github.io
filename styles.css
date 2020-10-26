@@ -5,27 +5,42 @@ body {
     color:black;
     margin: auto;
     text-align: center;
-    border: double 5px black;
-    font-family:"Lucidia Console", Courier, monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.assignments{
+    display: flex;
+    flex-wrap: wrap;
+
 }
 .assignment{
-    display: flex;
-    padding: 20px;
-    border-bottom: 2px;
-    border-color: black;
-    border-bottom-style: dashed;
+    background-color:gray;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 8px black;
+    width: 30%;
+
 }
 .assignmentimg{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    object-position: 0 0;
+    width: 200px;
+    height: 200px;
     border: solid 3px black;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+
 }
 .assignmentdetails{
-    margin: auto;
-    font-family:"Lucidia Console", Courier, monospace;
-    text-align: center;
-    width: 60%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
     font-weight: 600;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.assignment a:hover{
+    color: black;
 }
